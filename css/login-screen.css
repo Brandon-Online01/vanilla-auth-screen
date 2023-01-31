@@ -7,17 +7,8 @@
     justify-content: center;
     background-image: url('../assets/images/bgimage.jpg');
     background-size: cover;
-  }.login {
-  max-width: 100vw;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../assets/images/bgimage.jpg');
-  background-size: cover;
-}
-
+  }
+  
 .login__screen {
     width: 100%;
     height: 500px;
