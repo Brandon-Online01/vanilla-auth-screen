@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+:root {
+  --font: 'Montserrat', sans-serif;
+  --fs-default: 18px;
+  --fs-header: 3rem;
+  --fs-subheader: 2.5rem;
+
+  --w100: 100;
+  --w300: 300;
+  --w400: 400;
+  --w500: 500;
+
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #a9a9a9;
+  --blue: #0047e0;
+  --red: #ff0000;
+  --blue-darker: #033dbb;
+
+  --border: 1px solid var(--gray);
+  --border-radius: 6px;
+
+  --viewport-sm: 480px;
+  --viewport-md: 576px;
+  --viewport-lg: 768px;
+  --viewport-xl: 1200px;
+}
+
+html {
+    font-size: var(--fs-default);
+    font-family: var(--font);
+    color: var(--black);
+    font-weight: var(--w400);
+
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--white);
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--blue-2);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+ul {
+  padding-inline: 0;
+}
+
+li {
+  list-style-type: none;
+}

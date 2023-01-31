@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='./css/login-screen.css'>
+  <link rel='stylesheet' href='./css/theme.css'>
+  <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <title>Brandon - Auth Screen</title>
+</head>
+
+<body>
+  <main>
+    <div class='login'>
+      <form class='login__screen' id="signInForm">
+        <div class='login__screen--header'>
+          <h3>Sign In</h3>
+          <p>Enter your credentials to sign in!.</p>
+        </div>
+        <div class='login__screen--field'>
+          <label>Email</label>
+          <input type='text' placeholder='Email' id='username'>
+        </div>
+        <div class='login__screen--field'>
+          <label>Password</label>
+          <input type='password' placeholder='Password' id='password'>
+        </div>
+        <p class="login__screen--error" id="error"></p>
+        <button class='primary__btn' id='submit'>Sign In</button>
+      </form>
+    </div>
+  </main>
+  <script defer type='text/javascript' src="./js/login.js"></script>
+</body>
+
+</html>
